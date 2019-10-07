@@ -1,0 +1,80 @@
+.Menu {
+  a {
+    color: white;
+  }
+
+  &.headerMenu {
+    display: flex;
+    width: 713px;
+    justify-content: space-between;
+
+    li {
+      font: 18px/21px "Roboto", sans-serif;
+
+      a {
+        padding: 27px 5px;
+        text-decoration: none;
+        color: #3f3e3e;
+        display: block;
+        position: relative;
+
+        &:after {
+          display: none;
+          content: "";
+          width: calc(100% - 10px);
+          height: 3px;
+          border-radius: 3px;
+          background: #8e74de;
+          position: absolute;
+          left: 5px;
+          bottom: 15px;
+        }
+
+        &:hover,
+        &.active {
+          &:after {
+            display: block;
+          }
+        }
+      }
+
+      &:first-child {
+        a {
+          padding-left: 0;
+
+          &:after {
+            width: calc(100% - 5px);
+            left: 0;
+          }
+        }
+      }
+
+      &:last-child {
+        a {
+          padding-right: 0;
+
+          &:after {
+            width: calc(100% - 5px);
+          }
+        }
+      }
+    }
+  }
+
+  &.footerMenu {
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 22px;
+
+    a {
+      text-decoration: none;
+      color: #828282;
+      display: block;
+
+      &:hover,
+      &.active {
+        color: #c6c6c6;
+      }
+    }
+  }
+}

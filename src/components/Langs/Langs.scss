@@ -1,0 +1,48 @@
+.Langs {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  position: relative;
+
+  .lang {
+    padding: 9px 13px;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    margin-right: 3px;
+    text-decoration: none;
+    color: #828282;
+
+
+    &:hover {
+      color: #C6C6C6;
+    }
+
+    &:after {
+      content: '';
+      width: 3px;
+      height: 24px;
+      background: #8E74DE;
+      border-radius: 3px;
+      position: absolute;
+      right: -3px;
+      top: 50%;
+      margin-top: -12px;
+    }
+    
+
+    &:last-child {
+        padding-right: 0;
+        &:after {
+          display: none;
+          margin-right: 0;
+        }
+    }
+  }
+  .active {
+    color: white !important;
+  }
+  span {
+    color: #8e74de;
+  }
+}

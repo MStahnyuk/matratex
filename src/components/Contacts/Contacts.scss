@@ -1,0 +1,36 @@
+.Contacts {
+  font-family: "Roboto", sans-serif;
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-bottom: 9px;
+  }
+
+  p,
+  a {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: #c6c6c6;
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 32px;
+  }
+}

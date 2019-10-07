@@ -1,0 +1,45 @@
+.HeaderTop {
+  background: #3f3e3e;
+  color: #828282;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+
+  a {
+    text-decoration: none;
+    color: #828282;
+
+    &:hover {
+      color: #c6c6c6;
+    }
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .topLeft,
+  .topRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .topLeft {
+    width: 329px;
+  }
+
+  .topRight {
+    width: 714px;
+  }
+}
+
+.container {
+  max-width: 1270px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10px;
+}

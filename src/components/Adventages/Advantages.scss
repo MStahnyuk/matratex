@@ -1,0 +1,16 @@
+.Advantages {
+  padding: 66px 0 88px 0;
+  font-family: "Roboto", sans-serif;
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.container {
+  max-width: 1270px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10px;
+}

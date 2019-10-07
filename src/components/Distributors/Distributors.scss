@@ -1,0 +1,36 @@
+.Distributors {
+  padding: 90px 0 82px 0;
+  font-family: "Roboto", sans-serif;
+
+  .container {
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #3f3e3e;
+  }
+
+  .img_wrap {
+    margin-top: 47px;
+  }
+
+  p {
+    margin-top: 48px;
+    color: #828282;
+  }
+
+  p.last {
+    margin-top: 19px;
+    color: #3f3e3e;
+  }
+}
+
+.container {
+  max-width: 1270px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10px;
+}

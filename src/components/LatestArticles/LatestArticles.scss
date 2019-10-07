@@ -1,0 +1,26 @@
+.LatestArticles {
+  background: #f7f5fd;
+  font-family: "Roboto", sans-serif;
+  padding: 60px 0 37px 0;
+
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #3f3e3e;
+    text-align: center;
+  }
+
+  .articles {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.container {
+  max-width: 1270px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10px;
+}

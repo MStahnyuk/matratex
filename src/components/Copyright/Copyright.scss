@@ -1,0 +1,33 @@
+.Copyright {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  width: 122px;
+  margin-left: -61px;
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  a {
+    font-family: "HelveticaNeueCyr";
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    color: #828282;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 14px;
+    display: block;
+
+    &:hover {
+      color: #c6c6c6;
+    }
+  }
+}

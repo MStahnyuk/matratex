@@ -1,0 +1,22 @@
+.OurProducts {
+  margin-top: 90px;
+  font-family: "Roboto", sans-serif;
+
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #3f3e3e;
+    opacity: 0.1;
+    text-align: center;
+  }
+
+  .photos {
+    margin-top: 39px;
+    display: flex;
+  }
+}
+
+.container {
+  max-width: 1900px;
+  margin: 0 auto;
+}
